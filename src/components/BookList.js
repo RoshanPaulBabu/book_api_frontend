@@ -35,7 +35,7 @@ const BookList = () => {
 
     // Fetching the list of books
     useEffect(() => {
-        axios.get('http://localhost:8000/api/books/')
+        axios.get('https://roshanpaul007.pythonanywhere.com/api/books/')
             .then(response => setBooks(response.data))
             .catch(error => console.error('Error fetching books:', error));
     }, []);

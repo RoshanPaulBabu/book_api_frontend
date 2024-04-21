@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/'; // Change this URL according to your Django API URL
+const API_URL = 'https://roshanpaul007.pythonanywhere.com/api/'; // Change this URL according to your Django API URL
 
 const apiService = {
     getBooks: async () => {
